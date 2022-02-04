@@ -22,6 +22,10 @@
         <configuration>
           <relocations>
             <relocation>
+              <pattern>org.bstats</pattern>
+              <shadedPattern>fr.maxlego08.zoldenchant.bstats</shadedPattern>
+            </relocation>
+            <relocation>
               <pattern>com.cryptomorin.xseries</pattern>
               <shadedPattern>my.plugin.utils</shadedPattern>
             </relocation>

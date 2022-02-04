@@ -19,6 +19,12 @@
 				<configuration>
 					<relocations>
 						<relocation>
+							<pattern>org.bstats</pattern>
+							<!-- Replace this with your package! -->
+							<shadedPattern>fr.maxlego08.zoldenchant.bstats</shadedPattern>
+						</relocation>
+
+						<relocation>
 							<pattern>com.cryptomorin.xseries</pattern>
 							<!-- Be sure to change the package below -->
 							<shadedPattern>my.plugin.utils</shadedPattern>
@@ -84,7 +90,7 @@
 			<version>2.2.1</version>
 			<scope>compile</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
