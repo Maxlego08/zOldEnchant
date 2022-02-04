@@ -1,0 +1,7 @@
+name: zOldEnchant
+author: Maxlego08
+main: fr.maxlego08.zoldenchant.OldEnchantPlugin
+version: 1.0.0
+website: https://groupez.dev
+api-version: 1.13
+commands:
