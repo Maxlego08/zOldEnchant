@@ -61,6 +61,7 @@ public class OldEnchantPlugin extends JavaPlugin implements Listener {
 		inventory.setItem(1, this.getLapisItemStack());
 
 		int newLevel = event.getEnchanter().getLevel() - event.getExpLevelCost() + (event.whichButton() + 1);
+		newLevel = newLevel < 1 ? 1 : newLevel;
 		event.getEnchanter().setLevel(newLevel);
 		event.setExpLevelCost(1);
 	}
